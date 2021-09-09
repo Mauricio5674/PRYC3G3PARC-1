@@ -1,0 +1,84 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.caja_principal{
+    
+    background-color: grey;
+    /*text-align: center;*/
+    color: cornsilk;
+    height: 200vh;
+
+}
+header{
+    background-color: red;
+    margin-top: 0%;
+}
+nav{
+    background-color: orange;
+}
+
+.lote1{
+    background-color: red;
+    display: inline-flex;
+    width: 100%;
+    
+padding: 1%;   
+height: 50vh; 
+    
+
+}
+aside{
+   background-color: blue;
+   width: 70%;
+    
+   
+}
+section{
+    background-color: springgreen;
+    width: 30%;
+}
+.lote2{
+    background-color: silver;
+    
+    
+padding: 1%;   
+height: 50vh; 
+    
+
+}
+aside{
+   background-color: blue;
+   width: 30%;
+    
+   
+}
+section{
+    background-color: springgreen;
+    width: 40%;
+}
+.lote3{
+    background-color: silver;
+    
+    
+padding: 1%;   
+height: 50vh; 
+    
+
+}
+aside{
+   background-color: blue;
+   width: 30%;
+    
+   
+}
+section{
+    background-color: springgreen;
+    width: 40%;
+}
+
+footer{
+    background-color: blue;
+    padding: 2%;
+}
+
