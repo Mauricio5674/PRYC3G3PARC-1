@@ -39,8 +39,9 @@ section{
     width: 30%;
 }
 .lote2{
-    background-color: silver;
-    
+    background-color: red;
+    display: inline-flex;
+    width: 100%;
     
 padding: 1%;   
 height: 50vh; 
@@ -49,18 +50,19 @@ height: 50vh;
 }
 aside{
    background-color: blue;
-   width: 30%;
+   width: 70%;
     
    
 }
 section{
     background-color: springgreen;
-    width: 40%;
+    width: 30%;
 }
 .lote3{
-    background-color: silver;
-    
-    
+    background-color: red;
+    display: inline-flex;
+    width: 100%;
+
 padding: 1%;   
 height: 50vh; 
     
