@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-   
+    <meta charset="UTF-8">   
     <title>Aplicacion Web</title>
-<link rel="stylesheet" href="CSS/stiloslotes.css">
+    <!--<link rel="stylesheet" href="CSS/stiloslotes.css">-->
 
 </head>
 <body>
-    <div class="caja_principal">
+    <div class="caja-principal">
         <h1>Esta es la caja_principal</h1>
         <header>
             <h1>Este es el Encabezado</h1>
@@ -16,47 +15,81 @@
         <nav>
             <h1>Esta es la Barra de Navegacion</h1>
         </nav>
-        
-        <div class="lote1">
-        
+
+        <main class="caja-principal__contenedor">
+
+            <div class="contenedor_principal">
+
+                <a href="pry01Lote01.html">
+                    <div class="contenido">
+                        <section>                            
+                            <h2>lote1</h2>
+                            <img src="imagenes/parcela1.jpg" alt="lote1" width="350" height="200">
+                        </section>
+                        <aside>
+                            <p>lote1</p>
+                        </aside>
+                    </div>
+                </a>
+
+                <a href="pry01Lote02.html">            
+                    <div class="contenido">
+                        <section>
+                            <h2>lote2</h2>
+                            <img src="imagenes/parcela2.jpg" alt="lote2" width="350" height="200">            
+                        </section>
+                        <aside>
+                            <p>lote 2</p>
             
-            <section>
-                <h2>lote1</h2>
-                <img src="imagenes/parcela1.jpg" alt="lote1" width="350" height="200">
+                        </aside>
+                    </div>
+                </a>  
 
-            </section>
-            <aside>
-                <p>lote1</p>
+                <a href="pry01Lote03.html">                 
+                    <div class="contenido">
+                        <section>
+                            <h2>lote3</h2>
+                            <img src="imagenes/parcela3.jpg" alt="lote3" width="350" height="200">            
+                        </section>
+                        <aside>
+                            <p>lote 3</p>
+                        </aside>
+                    </div>
+                </a> 
 
-            </aside>
-                    
-        </div>
-      
-        <div class="lote2">
+            </div>
+                
 
-                    <section>
-                <h2>lote2</h2>
-                <img src="imagenes/parcela2.jpg" alt="lote2" width="350" height="200">
+            <div class="caja-principal__contacto">
+                <div class="formulario-contacto">
+                    <div class="formulario-contacto__titulo">Solicita más información</div>
+                    <div class="formulario-contacto__contenido">    
+                        <div class="empresa">
+                            <span class="name">EDALMARI INGENIERIA Y CONSTRUCCIONES</span>
+                        </div>
+                        <div class="separador"></div>
+                        <div class="formulario-contacto__datos">
+                               
+                            <div class="input-wrapper">
+                                <input class="input" type="text" name="name" id="input-name" placeholder="Nombre *">
+                            </div>    
+                            
+                            <div class="input-wrapper">
+                                <input class="input" type="email" name="email" id="input-email" placeholder="Email *">
+                            </div>
 
-            </section>
-            <aside>
-                <p>lote 2</p>
+                            <div class="telefono">
+                                <input id="input-phone" class="input" type="tel" name="phone" placeholder="Teléfono">
+                            </div>
 
-            </aside>
-       
-        </div>
-        <div class="lote3">
-           
-            <section>
-                <h2>lote3</h2>
-                <img src="imagenes/parcela3.jpg" alt="lote3" width="350" height="200">
-
-            </section>
-            <aside>
-                <p>lote 3</p>
-            </aside>
-      
-        </div>
+                            <textarea class="textarea" name="message" cols="30" id="textarea-message" rows="10" placeholder="Me gustaría recibir más información acerca de esta propiedad"></textarea>
+                            <button id="request-info-send-button" class="button filled">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        </main>
 
         <footer>
             <h5>aca hay un pie de pagina</h5>
